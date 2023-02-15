@@ -1,0 +1,198 @@
+site_name: PromptxAI
+site_url: https://www.promptx.ai
+site_description: PromptxAI prepares knowledge workers for future of work, using AI to scale human capability.
+copyright: Copyright &copy; 2023 - present, PromptxAI – All rights reserved | <a href="#__consent">Change cookie settings</a>
+
+theme:
+  name: material
+  logo: assets/images/promptxai-logo-256.png
+  favicon: assets/images/favicon.png
+  features:
+    - content.code.copy
+    - content.code.annotate
+    - search.share
+    - search.suggest
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
+  palette:
+      - scheme: default
+        primary: 'blue grey'
+        accent: 'blue grey'
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+      - scheme: slate
+        primary: 'blue grey'
+        accent: 'blue grey'
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+  icon:
+    admonition:
+      note: material/chat-processing-outline
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
+      list-creation: fontawesome/solid/list
+      dataset-creation: fontawesome/solid/database
+      chatgpt-model: fontawesome/solid/comments
+      research-function: fontawesome/solid/brain
+      education-industry: fontawesome/solid/graduation-cap
+      image-generation: fontawesome/solid/image
+      creative-function: material/creation
+      film-industry: material/filmstrip
+      midjourney-model: fontawesome/solid/eye
+      engineering-function: fontawesome/solid/wrench
+      software-industry: fontawesome/solid/laptop-code
+      diagram-generation: fontawesome/solid/diagram-project
+      knowledge-management: fontawesome/solid/brain
+      consulting-industry: fontawesome/solid/handshake
+      data-science: fontawesome/solid/atom
+      hugging-face: fontawesome/solid/atom
+      generative-ai: fontawesome/solid/brain
+      openai: fontawesome/solid/brain
+      chatgpt: fontawesome/solid/comments
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: false
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom  
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - tags:
+      tags_file: tags.md
+  - social:
+      cards_font: Roboto
+      cards_dir: images/social
+      cards_color:
+        fill: "#2E2E2E" 
+        text: "#FFFFFF"
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
+  - minify:
+      minify_html: true
+      minify_js: false
+      minify_css: false
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
+      
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/promptxai
+      name: PromptxAI on GitHub
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
+    List Creation: list-creation
+    Dataset Creation: dataset-creation
+    ChatGPT Model: chatgpt-model
+    Research Function: research-function
+    Education Industry: education-industry
+    Image Generation: image-generation
+    Film Industry: film-industry
+    Creative Function: creative-function
+    Midjourney Model: midjourney-model
+    Engineering Function: engineering-function
+    Software Industry: software-industry
+    Diagram Generation: diagram-generation
+    Knowledge Management: knowledge-management
+    Consulting Industry: consulting-industry
+    Data Science: data-science
+    Hugging Face: hugging-face
+    Generative AI: generative-ai
+    OpenAI: openai
+    ChatGPT: chatgpt
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+
+nav:
+  - Home: index.md
+  - ChatGPT:
+    - Historical Fact Question Answer: chatgpt/historical-fact-question-answer.md
+    - Generating Diagrams from World Knowledge: chatgpt/generating-diagrams-from-world-knowledge.md
+  - Media AI:
+    - Cinematic Alien Art Generation: media-ai/cinematic-alien-art-generation.md
+    - Art Generation with DALL-E and Stable Diffusion: api/art-generation-with-dalle-and-stable-diffusion.ipynb
+  - Hugging Face:
+    - 5 Minutes Generative AI Developer Setup: hugging-face/5-minutes-generative-ai-developer-setup.md
+    - Image Classification Using Pre-trained Deep Learning Models: api/image-classification-using-pre-trained-deep-learning-models.ipynb
+  - Open AI:
+    - OpenAI CEO Sam Altman on AI for the Next Era: chatgpt/openai-ceo-sam-altman-on-ai-for-the-next-era.md
+    - Low-code Blog Authoring Automation: api/low-code-blog-authoring-automation.ipynb
+    - Static Site Generation for Jekyll: api/static-site-generation-for-jekyll.ipynb
+  - Stability AI:
+    - Interview with Stability AI CEO: stability-ai/interview-with-stability-ai-ceo.md
+  - API:
+    - PromptxAI API: api/promptxai-api.md
+    - Blogger API: api/promptxai/blogger.py
+    - Artist API: api/promptxai/artist.py
+    - Core API: api/promptxai/core.py
+  - Tags: tags.md

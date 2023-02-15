@@ -18,4 +18,5 @@ mkdocs-minify-plugin
 pymdown-extensions
 pygments
 mkdocs-material
-
+cairosvg
+pillow

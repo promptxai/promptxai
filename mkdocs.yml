@@ -136,8 +136,8 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/promptxai
-      name: PromptxAI on GitHub
+      link: https://github.com/promptxai/promptxai
+      name: PromptxAI Source on GitHub
   consent:
     title: Cookie consent
     description: >- 

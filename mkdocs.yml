@@ -10,8 +10,8 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
-    - search.share
-    - search.suggest
+#    - search.share
+#    - search.suggest
     - navigation.footer
     - navigation.indexes
     - navigation.sections
@@ -20,14 +20,14 @@ theme:
     - toc.follow
   palette:
       - scheme: default
-        primary: 'blue grey'
-        accent: 'blue grey'
+        primary: 'indigo'
+        accent: 'indigo'
         toggle:
           icon: material/brightness-7
           name: Switch to dark mode
       - scheme: slate
-        primary: 'blue grey'
-        accent: 'blue grey'
+        primary: 'indigo'
+        accent: 'indigo'
         toggle:
           icon: material/brightness-4
           name: Switch to light mode
@@ -112,9 +112,9 @@ plugins:
         - custom-skip-class-name
       auto_caption: false
       caption_position: bottom  
-  - search:
-      lang: en
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+#  - search:
+#      lang: en
+#      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - tags:
       tags_file: tags.md
   - social:
@@ -137,21 +137,6 @@ extra:
   analytics:
     provider: google
     property: G-WDJ90STE54
-    feedback:
-      title: Was this page helpful?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: This page was helpful
-          data: 1
-          note: >-
-            Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: This page could be improved
-          data: 0
-          note: >- 
-            Thanks for your feedback! Help us improve this page by
-            submitting an issue to our 
-            [GitHub repository](https://github.com/promptxai/promptxai.github.io/issues/new/?title=[Feedback]+{title}+-+{url}).
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/promptxai/promptxai
@@ -190,9 +175,6 @@ extra:
 extra_css:
   - assets/stylesheets/extra.css
 
-extra_javascript:
-  - javascripts/feedback.js
-
 nav:
   - Home: index.md
   - ChatGPT:
@@ -208,6 +190,7 @@ nav:
     - OpenAI CEO Sam Altman on AI for the Next Era: chatgpt/openai-ceo-sam-altman-on-ai-for-the-next-era.md
     - Low-code Blog Authoring Automation: api/low-code-blog-authoring-automation.ipynb
     - Static Site Generation for Jekyll: api/static-site-generation-for-jekyll.ipynb
+    - OpenAI Prompt Automation Experiments: api/openai_prompt_automation.ipynb
   - Stability AI:
     - Interview with Stability AI CEO: stability-ai/interview-with-stability-ai-ceo.md
   - API:

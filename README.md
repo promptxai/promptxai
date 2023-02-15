@@ -1,5 +1,3 @@
-# ParomptxAI
-
 ![PromptxAI Logo](PromptxAI-Logo-Wide-1024.png)
 
 This repository contains the source code for the [Promptx.AI](https://www.promptx.ai) website.

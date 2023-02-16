@@ -10,8 +10,8 @@ theme:
   features:
     - content.code.copy
     - content.code.annotate
-#    - search.share
-#    - search.suggest
+    - search.share
+    - search.suggest
     - navigation.footer
     - navigation.indexes
     - navigation.sections
@@ -112,9 +112,15 @@ plugins:
         - custom-skip-class-name
       auto_caption: false
       caption_position: bottom  
-#  - search:
-#      lang: en
-#      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - exclude-search:
+      exclude:
+          - api/*
+      ignore:
+          - api/promptxai-api.md
+      exclude_unreferenced: true
   - tags:
       tags_file: tags.md
   - social:

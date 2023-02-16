@@ -20,6 +20,7 @@ mkdocs-glightbox
 mkdocs-jupyter
 mkdocs-minify-plugin
 mkdocs-exclude-search
+mkdocs-charts-plugin
 
 pymdown-extensions
 pygments

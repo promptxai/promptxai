@@ -9,7 +9,7 @@ tags:
 
 We are sharing the video transcript of OpenAI CEO Sam Altman on AI for the Next Era. The video is available on YouTube. We are also demonstrating how to generate meaningful new content using ChatGPT on a long form content like a video transcript. Specifically, we are using the video transcript to generate a summary of the video, a list of key entities, and a Mermaid.js diagram of the relationships between the entities. This is a powerful way to learn about the topics covered in the video. As we see more customer requests for such content generation, we will create more summaries and diagrams for the video transcripts. Generating this content yourself using GPT-3 Davinci model for automation can be a costly proposition (roughly $150+ for the length of this transcript). We are making this content available to you for free using our paid ChatGPT plus account. Please let us know if you find this useful.
 
-## Video Transcript
+## Introduction
 
 <div class="video-wrapper">
   <iframe width="1280" height="720" src="https://www.youtube.com/embed/WHoWGNQRXb0" frameborder="0" allowfullscreen></iframe>
@@ -95,6 +95,8 @@ think will happen is there'll be a whole new set of startups that take an existi
 and tune it uh which is not just fine-tuning like all the things you can do I think there will be a lot of access
 provided to create the model for medicine or using a computer 
 
+## Data Flywheel Process
+
 !!! info "ChatGPT Summary"
     The text discusses the potential value that can be created in a middle layer of companies that create unique versions of language models through a data flywheel process. The author believes that a systemic mistake is to assume that language models will not generate fundamentally new knowledge and add to the sum total of human scientific knowledge. The text also explores how AI can contribute to science, including the use of dedicated science products and tools that increase productivity, as well as the potential for AI to become an AI scientist and self-improve.
 
@@ -149,6 +151,8 @@ which is fine and one that is more scary but uh like AI that can start to be lik
 an AI scientist and self-improve and so when like can we automate like can we
 automate our own jobs as AI developers very first the very first thing we do can that help us like solve the really
 hard alignment problems 
+
+## Business Opportunities
 
 !!! info "ChatGPT Summary"
     The text discusses the potential business opportunities and impact of language models on various industries, including search, medical services, and education. The importance of the middle layer in the value chain is highlighted, which involves companies using unique versions of language models to create enduring value. The text also covers the potential of AI in science, with tools that make researchers more productive and the development of AI scientists that can automate jobs and help solve complex alignment problems. The alignment problem is defined as the challenge of building AGI that aligns with human goals, and self-improving systems are seen as a potential solution. Finally, the text mentions the evolution of language models as the most certain development in the near future.
@@ -225,6 +229,8 @@ in terms of like evolution of where AI we'll go um
 I'll start with like the higher certainty things I I think language models are going to go just much much
 further 
 
+## Future of AI
+
 !!! info "ChatGPT Summary"
     The speaker is excited about the algorithmic progress to come in the field of AI, including advancements in multimodal models and models that continuously learn. They predict that these advancements will unlock new applications and lead to a genuine technological revolution. They also believe that AI can help with new knowledge generation and advancing humanity. The speaker notes that many people are claiming to use AI in various areas, such as fusion, but these claims may be illusory.
 
@@ -285,7 +291,27 @@ we'll still be using the Transformers in five years I hope we're not I hope we f
 so I think it's important to always look for like you know where am I going to find the next the sort of the next
 totally new paradigm um and
 
----
+## Target Markets
+
+!!! info "ChatGPT Summary"
+    The speaker believes that making predictions through AI is not the only way, as it is essential to observe how something works predictably and gets better. They predict that the cost of intelligence and energy will trend towards zero, causing seismic shifts in society. The application of AI will seep into almost everything, and the cost structure will change. The speaker is uncertain about the metaverse's impact but thinks it has the potential to be a new container for software.
+
+    **Key entities:** AI, Financial markets, Quant trading system, Intelligence, Energy, Metaverse, Computing, Simulation environments, Education, Entertainment
+
+``` mermaid
+graph LR
+AI -- applies_to --> Financial_markets
+AI -- applies_to --> Quant_trading_system
+Intelligence -- trends_towards --> zero
+Energy -- trends_towards --> zero
+Intelligence -- affects_cost_of --> everything_else 
+Energy -- affects_cost_of --> everything_else 
+Metaverse -- may_impact --> Computing 
+Metaverse -- may_impact --> Simulation_environments 
+Metaverse -- may_impact --> Education 
+Metaverse -- may_impact --> Entertainment 
+Metaverse -- may_be_a --> container_for_software
+```
 
 but but I I think like that's the way to make predictions don't don't pay attention to the like AI for everything
 like you know can I see something working and can I see how it predictably gets better and then of course leave room open for like the you can't plan
@@ -320,7 +346,28 @@ certainly education right um you know like an AI tutor and so forth those those 
 the question is is there anything that's occurred to you that's I I would bet that
 the metaverse turns out in the upside case then which I think has a reasonable chance of happening the upside case the
 metaverse turns out to be more like something on the order of the iPhone like a new
-a new container for software and you know a new way a new computer interaction thing and AI turns out to be
+a new container for software 
+
+## AI and the Metaverse
+
+!!! note "ChatGPT Summary"
+    The speaker believes that AI and the metaverse will revolutionize computer interaction, with the metaverse fitting into the new world of AI. They believe foundational technologies such as tpg3 will quicken iteration cycles in life science research, leading to new multi-billion dollar companies. Although some areas of life science research will be impacted by AI, human trials and bio's own pace will remain rate limiters. The speaker believes that AI can help create better simulators, leading to faster cycle times. However, the deep biological things like human interactions will not be changed by AI.
+
+    **Key entities:** AI, Metaverse, Life science research, Pharma companies, Human trials, Bio, Startups, Simulators, Self-improvement
+
+``` mermaid
+graph LR
+AI -- revolutionizes --> Computer_interaction
+Metaverse -- fits_into --> New_world_of_AI
+Tpg3 -- quickens --> Iteration_cycles_in_life_science_research
+Life_science_research -- can_lead_to --> Multi-billion_dollar_companies
+Bio -- remains --> Rate_limiter
+AI -- helps_create --> Better_simulators
+Better_simulators -- lead_to --> Faster_cycle_times
+Human_interactions -- remain --> Unchanged_by_AI
+```
+
+and you know a new way a new computer interaction thing and AI turns out to be
 something on the order of like a legitimate technological Revolution um and so I think it's more like how the
 metaverse is going to fit into this like new world of AI then AI fit into the metaverse but
 low confidence the TBD all right questions
@@ -354,7 +401,13 @@ um I was curious what what aspects of Life do you think won't be changed by AI
 um sort of did all of the deep biological things like I think we will still really
 care about interaction with other people like we'll still have fun and like the reward you know systems of our brain are
 still going to work the same way like we're still going to have the same like drives to kind of create new things and
-you know compete for silly status and like you know form families and whatever
+you know compete for silly status
+
+---
+
+## Video Transcript Continued
+
+and like you know form families and whatever
 um so I think the the stuff that people cared about
 50 000 years ago is more likely to be the stuff that people care about you know 100 years from now than 100 years
 ago as an amplifier on that before we get to the next whatever the next question is

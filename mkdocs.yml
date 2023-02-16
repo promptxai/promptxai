@@ -68,6 +68,7 @@ theme:
       generative-ai: fontawesome/solid/brain
       openai: fontawesome/solid/brain
       chatgpt: fontawesome/solid/comments
+      analytics-function: fontawesome/solid/chart-line
 
 markdown_extensions:
   - meta
@@ -81,6 +82,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+
   - pymdownx.snippets
   - admonition
   - pymdownx.details
@@ -99,6 +104,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
+  - charts
   - glightbox:
       touchNavigation: true
       loop: false
@@ -177,15 +183,22 @@ extra:
     Generative AI: generative-ai
     OpenAI: openai
     ChatGPT: chatgpt
+    Analytics Function: analytics-function
 
 extra_css:
   - assets/stylesheets/extra.css
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
 
 nav:
   - Home: index.md
   - ChatGPT:
     - Historical Fact Question Answer: chatgpt/historical-fact-question-answer.md
     - Generating Diagrams from World Knowledge: chatgpt/generating-diagrams-from-world-knowledge.md
+    - Natural Language Analytics and Visualization: chatgpt/natural-language-analytics-and-visualization.md
   - Media AI:
     - Cinematic Alien Art Generation: media-ai/cinematic-alien-art-generation.md
     - Art Generation with DALL-E and Stable Diffusion: api/art-generation-with-dalle-and-stable-diffusion.ipynb

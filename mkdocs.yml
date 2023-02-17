@@ -199,6 +199,7 @@ nav:
     - Historical Fact Question Answer: chatgpt/historical-fact-question-answer.md
     - Generating Diagrams from World Knowledge: chatgpt/generating-diagrams-from-world-knowledge.md
     - Natural Language Analytics and Visualization: chatgpt/natural-language-analytics-and-visualization.md
+    - Tallest Buildings Data Visualization: chatgpt/tallest-buildings-dataset-visualization.md
   - Media AI:
     - Cinematic Alien Art Generation: media-ai/cinematic-alien-art-generation.md
     - Art Generation with DALL-E and Stable Diffusion: api/art-generation-with-dalle-and-stable-diffusion.ipynb

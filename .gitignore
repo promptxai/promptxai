@@ -5,3 +5,4 @@ env
 promptxai.github.io.code-workspace
 models_cache
 site
+.python-version

@@ -1,14 +1,13 @@
 ---
+title: Generative AI Playbook by PromptxAI
 hide:
     - navigation
 ---
-# Future of Work by PromptxAI
+# Generative AI Playbook by PromptxAI
 
-PromptxAI prepares knowledge workers for future of work, using AI to scale human capability.
+Generative AI is disrupting many industries and significantly reshaping future of work for many creative and knowledge-driven functions. PromptxAI is on a mission to help businesses and individuals leverage the power of Generative AI to accelerate their growth and innovation. We are building a Generative AI Playbook to help you get started with Generative AI. You can access the Generative AI Playbook on this website in various ways including learning creative prompt engineering [techniques](chatgpt/generating-diagrams-from-world-knowledge) to make the most of Generative AI applications like [ChatGPT](chatgpt/historical-fact-question-answer), Midjourney, DALL-E, [Stable Diffusion](stability-ai/interview-with-stability-ai-ceo), D-ID, and more. You can also learn about the [trends](chatgpt/openai-ceo-sam-altman-on-ai-for-the-next-era) impacting future of work and how to leverage these as ideas for your own business or career. We are also sharing accelerator [notebooks](api/low-code-blog-authoring-automation) and code [libraries](api/promptxai-api) to help you get started with Generative AI.
 
-Our mission is to explore the disproportionate and paradoxical challenge and opportunity - the generative AI induced seismic shift in leverage for knowledge workers. Leverage drives work, which creates value and ultimately wealth. PromptxAI addresses a complex interplay of three factors: the increasing ability of AI to do our work better than we can, reinvention of AI based tooling for knowledge workers, and the inadequacy of formal education in preparing us for the future of work.
-
-![PromptxAI Diffusion of Value Creation](assets/images/promptxai-diffusion-of-value-creation.png)
+![PromptxAI Generative AI Playbook](assets/images/promptxai-generative-ai-playbook.png)
 
 ## Trends impacting future of work
 

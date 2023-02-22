@@ -12,6 +12,9 @@ torch
 torchvision
 transformers
 
+langchain
+google-search-results
+
 openai
 stability-sdk
 

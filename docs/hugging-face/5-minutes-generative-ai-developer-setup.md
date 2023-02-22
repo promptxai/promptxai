@@ -21,16 +21,16 @@ pip --version
 # should return pip 22.3.x or higher as on Jan'23
 ```
 
-Follow this guide for [Mac OS X](https://docs.python-guide.org/starting/install3/osx/) if you do not have the latest Python. If required upgrade pip to the latest using the following command.
+Follow this guide for [Mac OS X](https://docs.python-guide.org/starting/install3/osx/) if you do not have the latest Python. If installing specific version of Python for managing dependencies then follow [this thread](https://apple.stackexchange.com/questions/237430/how-to-install-specific-version-of-python-on-os-x) to install using `pyenv` Python version manager. If required upgrade pip to the latest using the following command.
 
 ```bash
-python3 -m pip install --user --upgrade pip
+pip install --user --upgrade pip
 ```
 
 We will now create a virtual environment for our MLOps setup so that our dependencies are isolated and do not conflict with the system installed packages. We will follow [this guide](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment) for creating and managing the virtual environment. First change to the directory where we will develop our application.
 
 ```bash
-python3 -m venv env
+python -m venv env
 ```
 
 If you run ls env you will see following folders and files created.
@@ -42,7 +42,7 @@ bin        include    lib        pyvenv.cfg
 Now we can activate our virtual environment like so. You will notice that development directory prefixed with the (env) to indicate you are now running in the virtual environment.
 
 ```bash
-source env/bin/activate
+. env/bin/activate
 ```
 
 You can confirm that you are not running inside the virtual environment with its own Python.

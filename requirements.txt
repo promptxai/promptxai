@@ -17,6 +17,7 @@ google-search-results
 
 openai
 stability-sdk
+cohere
 
 mkdocs-material
 mkdocs-glightbox

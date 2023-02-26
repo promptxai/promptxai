@@ -3,12 +3,17 @@ tags:
   - Generative AI
   - OpenAI
   - Hugging Face
-  - Stable AI
+  - Stability AI
 ---
 
 # PromptxAI API
 
-PromptxAI API is a set of documented Jupyter notebooks, Python scripts, and packages that can be used to interact with OpenAI, Stable Diffusion, and Hugging Face models. The API abstracts some of the plumbing required to access these models and provides higher order capabilities such as blogging, art creation, and static site generation.
+PromptxAI API implements the Generative AI playbook. The API abstracts the plumbing required to access Generative AI models and provides higher order capabilities such as blogging, art creation, content parsing, dataset creation, and static site generation.
+
+![PromptxAI Generative AI Playbook Generic](../assets/images/promptxai-generative-ai-playbook-generic.png)
+
+## Model Card Generation
+We have recently launched a new API for generating model cards. Model cards are a great way to document your model and share it with the community. See [notebook](../model-card-generator) for an example of how to generate a model card by parsing latest content about the model from web then passing this along to GPT-3 for querying structured data about the model. Then we use PromptxAI API to generate a model card in markdown format.
 
 ## Blogger API
 We created Blogger API for human and AI in partnership for low-code blog authoring automation. We are sharing a notebook tutorial so that you can join the exploration. The tutorial walks through basics of AuthorAI + human authoring flow which you can adapt to your needs. Another objective of this notebook is to act as an interactive playground for the AuthorAI library.

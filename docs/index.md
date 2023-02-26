@@ -7,13 +7,15 @@ hide:
 
 Generative AI is disrupting many industries and significantly reshaping future of work for many creative and knowledge-driven functions. PromptxAI is on a mission to help businesses and individuals leverage the power of Generative AI to accelerate their growth and innovation. We are building a Generative AI Playbook to help you get started with Generative AI. You can access the Generative AI Playbook on this website in various ways including learning creative prompt engineering [techniques](chatgpt/generating-diagrams-from-world-knowledge) to make the most of Generative AI applications like [ChatGPT](chatgpt/historical-fact-question-answer), Midjourney, DALL-E, [Stable Diffusion](stability-ai/interview-with-stability-ai-ceo), D-ID, and more. You can also learn about the [trends](chatgpt/openai-ceo-sam-altman-on-ai-for-the-next-era) impacting future of work and how to leverage these as ideas for your own business or career. We are also sharing accelerator [notebooks](api/low-code-blog-authoring-automation) and code [libraries](api/promptxai-api) to help you get started with Generative AI.
 
+## Playbook with popular examples
+
 Here is a version of the playbook with most popular examples.
 
 ![PromptxAI Generative AI Playbook](assets/images/promptxai-generative-ai-playbook.png)
 
-Here is a generic version of the playbook which extends the Generative AI landscape with Agents, Tools, and Content. This playbook extends and uses [LangChain](https://langchain.readthedocs.io/en/latest/index.html) as a generic framework for working with LLMs.
+## Extended playbook with a generic framework
 
-![PromptxAI Generative AI Playbook Generic](assets/images/promptxai-generative-ai-playbook-generic.png)
+Here is a generic version of the playbook which extends the Generative AI landscape with Agents, Tools, and Content. This playbook extends and uses [LangChain](https://langchain.readthedocs.io/en/latest/index.html) as a generic framework for working with LLMs.
 
 1. **Prompts:** This includes prompt management, prompt optimization, and prompt serialization.
 2. **Models:** This includes LLMs and pre-trained deep learning transformer models.
@@ -23,6 +25,12 @@ Here is a generic version of the playbook which extends the Generative AI landsc
 6. **Agents:** Agents involve an LLM making decisions about which Actions to take, taking that Action, seeing an Observation, and repeating that until done.
 7. **Memory:** Memory is the concept of persisting state between calls of a chain/agent.
 8. **Infrastructure:** This includes hubs like Hugging Face, GitHub, and Kaggle. It also includes cloud providers like AWS, GCP, and Azure. First movers like OpenAI and Stability AI are hosted providers of LLMs. Another emerging category is specialized multi-cloud orchestrators for LLM training, optimization, and inference.
+
+![PromptxAI Generative AI Playbook Generic](assets/images/promptxai-generative-ai-playbook-generic.png)
+
+### Content generation
+
+You can explore the generic playbook on this website. Let's start with far right part of the playbook, Content. An example of prompt-model-completion sequence generating content in the format of a diagram is demonstrated in [Generating Diagrams from World Knowledge](chatgpt/generating-diagrams-from-world-knowledge) section. You can also explore [Low Code Blog Authoring Automation](api/low-code-blog-authoring-automation) section to learn about how to use PromptxAI API to automate blog authoring. The post on [Natural Language Analytics and Visualization](chatgpt/natural-language-analytics-and-visualization) demonstrates charts and graphs. The [OpenAI CEO Sam Altman on AI for Next Era](chatgpt/openai-ceo-sam-altman-on-ai-for-the-next-era) interview demonstrates creating topic maps and summaries as content. You can generate datasets like [Historical Fact Question Answer](chatgpt/historical-fact-question-answer) does for ancient civilizations.
 
 ## Trends impacting future of work
 

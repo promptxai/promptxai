@@ -1,4 +1,3 @@
-bs4
 markdownify
 urllib3
 
@@ -30,3 +29,7 @@ pymdown-extensions
 pygments
 cairosvg
 pillow
+
+# promptxai API dependencies
+beautifulsoup4
+requests

@@ -205,6 +205,7 @@ nav:
   - Media AI:
     - Cinematic Alien Art Generation: media-ai/cinematic-alien-art-generation.md
     - Art Generation with DALL-E and Stable Diffusion: api/art-generation-with-dalle-and-stable-diffusion.ipynb
+    - Interview with Stability AI CEO: stability-ai/interview-with-stability-ai-ceo.md
   - Hugging Face:
     - 5 Minutes Generative AI Developer Setup: hugging-face/5-minutes-generative-ai-developer-setup.md
     - Image Classification Using Pre-trained Deep Learning Models: api/image-classification-using-pre-trained-deep-learning-models.ipynb
@@ -213,11 +214,23 @@ nav:
     - Low-code Blog Authoring Automation: api/low-code-blog-authoring-automation.ipynb
     - Static Site Generation for Jekyll: api/static-site-generation-for-jekyll.ipynb
     - OpenAI Prompt Automation Experiments: api/openai_prompt_automation.ipynb
-  - Stability AI:
-    - Interview with Stability AI CEO: stability-ai/interview-with-stability-ai-ceo.md
+  - Models:
+    - DALL-E Mini: models/dalle-mini.md
+    - LaMDA: models/lamda.md
+    - LLaMA: models/llama.md
+    - BERT Base Model Uncased: models/bert-base-model-uncased.md
   - API:
     - PromptxAI API: api/promptxai-api.md
-    - Blogger API: api/promptxai/blogger.py
-    - Artist API: api/promptxai/artist.py
-    - Core API: api/promptxai/core.py
+    - Playbook:
+      - Models API: api/promptxai/models.py
+      - Prompts API: api/promptxai/prompts.py
+      - Utils API: api/promptxai/utils.py
+      - Content API: api/promptxai/content.py
+    - Notebooks:
+      - Model Card Generator: api/model-card-generator.ipynb
+    - Legacy:
+      - Blogger API: api/promptxai/blogger.py
+      - Artist API: api/promptxai/artist.py
+      - Core API: api/promptxai/core.py
+
   - Tags: tags.md

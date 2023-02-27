@@ -14,7 +14,8 @@ theme:
     - search.suggest
     - navigation.footer
     - navigation.indexes
-    - navigation.instant
+# Vegalite not render if this is enabled
+#    - navigation.instant
     - navigation.tracking
     - navigation.sections
     - navigation.tabs

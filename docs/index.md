@@ -11,7 +11,7 @@ Generative AI is disrupting many industries and significantly reshaping future o
 
 Here is a version of the playbook with most popular examples.
 
-![PromptxAI Generative AI Playbook](assets/images/promptxai-generative-ai-playbook.png)
+![PromptxAI Generative AI Playbook](assets/images/promptxai-generative-ai-playbook.jpg)
 
 ## Extended playbook with a generic framework
 
@@ -26,7 +26,7 @@ Here is a generic version of the playbook which extends the Generative AI landsc
 7. **Memory:** Memory is the concept of persisting state between calls of a chain/agent.
 8. **Infrastructure:** This includes hubs like Hugging Face, GitHub, and Kaggle. It also includes cloud providers like AWS, GCP, and Azure. First movers like OpenAI and Stability AI are hosted providers of LLMs. Another emerging category is specialized multi-cloud orchestrators for LLM training, optimization, and inference.
 
-![PromptxAI Generative AI Playbook Generic](assets/images/promptxai-generative-ai-playbook-generic.png)
+![PromptxAI Generative AI Playbook Generic](assets/images/promptxai-generative-ai-playbook-generic.jpg)
 
 ### Content generation
 

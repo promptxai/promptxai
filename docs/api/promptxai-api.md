@@ -10,7 +10,7 @@ tags:
 
 PromptxAI API implements the Generative AI playbook. The API abstracts the plumbing required to access Generative AI models and provides higher order capabilities such as blogging, art creation, content parsing, dataset creation, and static site generation.
 
-![PromptxAI Generative AI Playbook Generic](../assets/images/promptxai-generative-ai-playbook-generic.png)
+![PromptxAI Generative AI Playbook Generic](../assets/images/promptxai-generative-ai-playbook-generic.jpg)
 
 ## Model Card Generation
 We have recently launched a new API for generating model cards. Model cards are a great way to document your model and share it with the community. See [notebook](../model-card-generator) for an example of how to generate a model card by parsing latest content about the model from web then passing this along to GPT-3 for querying structured data about the model. Then we use PromptxAI API to generate a model card in markdown format.

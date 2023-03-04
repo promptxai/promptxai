@@ -216,10 +216,12 @@ nav:
     - Static Site Generation for Jekyll: api/static-site-generation-for-jekyll.ipynb
     - OpenAI Prompt Automation Experiments: api/openai_prompt_automation.ipynb
   - Models:
+    - Large Language Models: models/large-language-models.md
     - DALL-E Mini: models/dalle-mini.md
     - LaMDA: models/lamda.md
     - LLaMA: models/llama.md
     - BERT Base Model Uncased: models/bert-base-model-uncased.md
+    - GPT-3: models/generative-pretrained-transformer-gpt3.md
   - API:
     - PromptxAI API: api/promptxai-api.md
     - Playbook:

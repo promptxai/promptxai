@@ -1,42 +1,24 @@
 from promptxai import utils
 
-def extract_model_card(text_content: str) -> str:
+def extract_model_card(model_attributes: list, text_content: str) -> str:
     """Extracts the model card from a text.
 
     Args:
+        model_attributes (list): The model attributes to extract.
         text_content (str): The text to extract the model card from.
 
     Returns:
         prompt (str): Prompt for model card extraction.
+        tokens (int): Number of tokens to pass on to max_tokens.
     """
-    prompt_base = '''Match the attributes with values from text. Where values do not exist, set value to Unknown.
-        
-        Attributes:
-        Model parameters
-        Limitations of the model
-        Strengths of the model
-        Name of the model
-        Company releasing the model
-        Unique features of the model
-        Comparison with similar models
-        Use cases of the model
-        Date of model release
-        Compute infrastructure required for model
-        Model license
-        Model version
-        Model description
-        Model keywords
-        Model task
-        Model training data
-        Model evaluation data
-        Model hyperparameters
-        Model training procedure
-        Model evaluation procedure
+    prompt = '''Extract model attribute values from text and 
+    return a code-fenced JSON object with {'attribute'='value'} pairs.
+    Where attribute does not exist, set value to Unknown.
+    The model attributes are - '''
+    prompt += ', '.join(model_attributes) + '.\n\n'
+    prompt += 'Text: ' + text_content
 
-        Text: 
-        '''
-    prompt='{prompt_base}{text}'.format(prompt_base=prompt_base, text=text_content)
-    tokens = utils.chars_to_tokens(len(prompt_base) * 5)
+    tokens = 500
     return prompt, tokens
 
 def summarize(text_content: str) -> str:
@@ -47,6 +29,7 @@ def summarize(text_content: str) -> str:
 
     Returns:
         prompt (str): Prompt for text summarization.
+        tokens (int): Number of tokens to pass on to max_tokens.
     """
     prompt_base = '''Summarize the text
 

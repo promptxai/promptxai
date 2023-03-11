@@ -5,6 +5,7 @@ copyright: Copyright &copy; 2023 - present, PromptxAI – All rights reserved | 
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/images/promptxai-logo-256.png
   favicon: assets/images/favicon.png
   features:
@@ -107,6 +108,43 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
+  - with-pdf:
+      author: 'PromptxAI and ChatStart Team'
+      copyright: '2022 to present, PromptxAI and ChatStart Team. All rights reserved.'
+      #
+      cover: true
+      back_cover: true
+      cover_title: 'Generative AI Playbook by PromptxAI and ChatStart'
+      cover_subtitle: 'Build ChatGPT and other Generative AI powered startup. Fast!'
+      #custom_template_path: TEMPLATES PATH
+      #
+      toc_title: 'Table of Contents'
+      #heading_shift: false
+      toc_level: 3
+      ordered_chapter_level: 2
+      #excludes_children:
+      #    - 'release-notes/:upgrading'
+      #    - 'release-notes/:changelog'
+      #
+      exclude_pages:
+        - 'api/'
+      #    - 'appendix/contribute/'
+      #convert_iframe:
+      #    - src: IFRAME SRC
+      #      img: POSTER IMAGE URL
+      #      text: ALTERNATE TEXT
+      #    - src: ...
+      # two_columns_level: 3
+      #
+      # render_js: true
+      #headless_chrome_path: headless-chromium
+      #
+      output_path: ebook.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
+      #
+      debug_html: true
+      #show_anchors: true
+      verbose: true    
   - charts
   - glightbox:
       touchNavigation: true
@@ -222,6 +260,7 @@ nav:
     - LLaMA: models/llama.md
     - BERT Base Model Uncased: models/bert-base-model-uncased.md
     - GPT-3: models/generative-pretrained-transformer-gpt3.md
+    - Flan 20B: models/flan-20b.md
   - API:
     - PromptxAI API: api/promptxai-api.md
     - Playbook:

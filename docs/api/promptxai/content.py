@@ -110,6 +110,7 @@ class ModelCard:
                         'Website': {'icon': '🌐', 'url': ''},
                         'Research Paper': {'icon': '📄', 'url': ''},
                         'GitHub':  {'icon': '🐱', 'url': ''},
+                        'Demo': {'icon': '🎬', 'url': ''},
                         'Wikipedia': {'icon': '🕸️', 'url': ''},
                         'About Model': {'icon': '📖', 'url': ''}}
 
@@ -121,17 +122,6 @@ class ModelCard:
         self.extract = {}
         self.summary = ''
 
-    def set_extract(self, model_card_extract: str):
-        """Initialize the model card generator."""        
-        self.extract = json.loads(model_card_extract.replace('```', ''))
-
-    def set_unknowns(self, model_card_extract: str):
-        """Set the model card attributes from extract json as argument if values in self.extract are Unknown."""
-        extract = json.loads(model_card_extract.replace('```', ''))
-        for attr in self.ATTRIBUTES:
-            if self.extract[attr] == 'Unknown':
-                self.extract[attr] = extract[attr]
-
     def set_url(self, source: str, url: str):
         """Set the model source URL."""
         self.sources[source]['url'] = url
@@ -140,12 +130,23 @@ class ModelCard:
         """Get the model source URL."""
         return self.sources[source]['url']
     
+    def set_extract(self, model_card_extract: str):
+        """Initialize the model card generator."""        
+        self.extract = json.loads(model_card_extract.replace('```', ''))
+
     def set_summary(self, summary: str):
         """Set the model summary."""
         self.summary = summary
-    
+
     def get_unknown_attributes(self):
         return [attr for attr in self.ATTRIBUTES if self.extract[attr] == 'Unknown']
+
+    def set_unknowns(self, model_card_extract: str):
+        """Set the model card attributes from extract json as argument if values in self.extract are Unknown."""
+        extract = json.loads(model_card_extract.replace('```', ''))
+        for attr in self.ATTRIBUTES:
+            if self.extract[attr] == 'Unknown':
+                self.extract[attr] = extract[attr]
 
     def generate_material_mkdown(self):
         """Generate the model card as Material for MkDocs Markdown."""

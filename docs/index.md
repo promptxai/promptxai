@@ -60,10 +60,6 @@ Explain Generative AI with well known examples. Cite sources.
     - https://www.towardsdatascience.com/generative-ai-what-it-is-and-how-it-works-f9f9f9f3f2f
 
 
-<div class="video-wrapper">
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/WHoWGNQRXb0" frameborder="0" allowfullscreen></iframe>
-</div>
-
 ## Trend 2: Prompt Engineering
 
 Prompt Engineering is right now the buzz on social media. It is interesting how Sam Altman addresses future of Prompt Engineering in the interview (25:09) where he thinks it will evolve to people just interacting with AGI in a natural way. However, Reid Hoffman makes a counterpoint how an artist can articulate much better prompts and get more out of Transformer Models than a casual user.

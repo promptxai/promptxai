@@ -63,6 +63,21 @@
 
   }
   
+  .cta-link {
+    color: #f87af4 !important;  
+    font-weight: bold;  
+  }
+
+  .cta-link:hover {
+    color: #f9bcf5 !important;
+    font-weight: bold;  
+  }
+
+  .cta-link:active {
+    color: #8f2a85 !important;
+    font-weight: bold;  
+  }
+
   /*override text color of a button class to white*/
   .cta-button {
     background-color: #d048cb;

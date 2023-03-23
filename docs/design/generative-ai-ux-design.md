@@ -4,7 +4,8 @@ Question: How might we help Product Designer adopt Generative AI to benefit thei
 
 Product Designer plays an important role in making a user fall in love with a product that they use. A designer’s day-to-day work involves applying their specialised knowledge and skills in user experience design to create products and services that meet the needs of users. They  spend their time researching, designing, prototyping, and testing products to ensure that they are user-friendly, accessible, and effective. 
 
-![Generative AI Supported Product Innovation Process](Generative%20AI%20Supported%20Product%20Innovation%20Process%2099b9b192dae049df87520a53c640467d/Untitled.png)
+![Generative AI Supported Product Innovation Process](../assets/images/generative-ai-ux-design-process.png)
+Generative AI Supported Product Innovation Process
 
 
 Let’s take Sarah (28), a Product Designer as an example. Sarah has a degree in design and has worked as a UX designer for over 5 years. She has experience working on a range of products, from mobile apps to enterprise software. Sarah is passionate about designing products that are intuitive, easy to use, and solve real-world problems. By understanding Sarah’s life as a Product Designer, her day to day goals, challenges, and personality, we can identify some ways how she can adopt AI to improve her work efficiency and learning.

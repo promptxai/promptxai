@@ -261,6 +261,8 @@ nav:
     - BERT Base Model Uncased: models/bert-base-model-uncased.md
     - GPT-3: models/generative-pretrained-transformer-gpt3.md
     - Flan 20B: models/flan-20b.md
+  - Design:
+    - Generative AI UX Design: design/generative-ai-ux-design.md
   - API:
     - PromptxAI API: api/promptxai-api.md
     - Playbook:

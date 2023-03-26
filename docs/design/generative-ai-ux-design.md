@@ -35,4 +35,4 @@ Values and Personality Traits:
 
 As a knowledge worker, Sarah's success in her role depends on her ability to continually learn, stay up-to-date with the latest trends and best practices in UX design, and improve her efficiency. This is where AI can play a valuable role, by providing tools and techniques that can help her work more efficiently, solve problems more effectively, and create better products for users. 
 
-In this Design Playbook series, we will explore the power of Generative AI to fuel the product innovation and Design Thinking process to help designers get more efficient in crafting delightful experiences for their users.
+In this [Design Playbook series](https://www.promptx.ai/design/design-playbook-ai-powered-experience-design/), we will explore the power of Generative AI to fuel the product innovation and Design Thinking process to help designers get more efficient in crafting delightful experiences for their users.

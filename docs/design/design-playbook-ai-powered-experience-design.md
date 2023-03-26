@@ -39,11 +39,11 @@ Generative AI can help addressing these challenges in various ways. We will cove
 
 1. Introduction to AI in design and the specific generative AI techniques used in the playbook.
 2. Risks and limitations of using AI in design, including:
-a. Over-reliance on AI-generated output without proper human judgment and validation.
-b. Ethical considerations, such as biased data leading to biased design outcomes.
-c. Intellectual property concerns when using AI-generated assets.
-d. Balancing efficiency and quality when incorporating AI-generated elements.
-e. Privacy and data security concerns when dealing with user data and AI systems.
+- Over-reliance on AI-generated output without proper human judgment and validation.
+- Ethical considerations, such as biased data leading to biased design outcomes.
+- Intellectual property concerns when using AI-generated assets.
+- Balancing efficiency and quality when incorporating AI-generated elements.
+- Privacy and data security concerns when dealing with user data and AI systems.
 3. Step-by-step guidance for each stage of the Design Thinking process, illustrating how AI can support and enhance each stage while addressing potential risks and limitations.
 4. Real-world examples and case studies demonstrating how AI has been used effectively in design processes at startups.
 5. Tool recommendations and tutorials on integrating AI capabilities into existing design tools or using standalone AI-powered platforms.

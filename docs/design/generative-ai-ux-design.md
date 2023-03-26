@@ -7,7 +7,7 @@ Product Designer plays an important role in making a user fall in love with a pr
 ![Some scenarios of AI-supported tasks to improve Designer efficiency](../assets/images/Hi-level AI supported Design Process.png)
 Some scenarios of AI-supported tasks to improve Designer efficiency
 
-
+## Product Designer Persona
 Let’s take Sarah (28), a Product Designer as an example. Sarah has a degree in design and has worked as a UX designer for over 5 years. She has experience working on a range of products, from mobile apps to enterprise software. Sarah is passionate about designing products that are intuitive, easy to use, and solve real-world problems. By understanding Sarah’s life as a Product Designer, her day to day goals, challenges, and personality, we can identify some ways how she can adopt AI to improve her work efficiency and learning.
 
 Sarah’s Goals and Motivations: 

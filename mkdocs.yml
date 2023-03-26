@@ -263,7 +263,7 @@ nav:
     - Flan 20B: models/flan-20b.md
   - Design:
     - Intersection of Generative AI and Product Design: design/generative-ai-ux-design.md
-    - Design Playbook Series - AI-Powered Experience Design: design/design-playbook:-ai-powered-experience-design.md
+    - Design Playbook Series - AI-Powered Experience Design: design/design-playbook-ai-powered-experience-design.md
   - API:
     - PromptxAI API: api/promptxai-api.md
     - Playbook:
@@ -277,5 +277,4 @@ nav:
       - Blogger API: api/promptxai/blogger.py
       - Artist API: api/promptxai/artist.py
       - Core API: api/promptxai/core.py
-
   - Tags: tags.md

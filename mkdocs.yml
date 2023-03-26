@@ -262,7 +262,8 @@ nav:
     - GPT-3: models/generative-pretrained-transformer-gpt3.md
     - Flan 20B: models/flan-20b.md
   - Design:
-    - Generative AI UX Design: design/generative-ai-ux-design.md
+    - Intersection of Generative AI and Product Design: design/generative-ai-ux-design.md
+    - Design Playbook Series - AI-Powered Experience Design: design/design-playbook:-ai-powered-experience-design.md
   - API:
     - PromptxAI API: api/promptxai-api.md
     - Playbook:

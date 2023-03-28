@@ -1,5 +1,10 @@
 # Intersection of Generative AI and Product Design
 
+<aside>
+<img src="../assets/images/Paras-Aggarwal-Avatar-sm.png" alt="Paras Aggarwal" width="40px" /> March, 24 2023
+[Paras Aggarwal](https://www.linkedin.com/in/parasaggarwalux/)
+</aside>
+
 Question: How might we help Product Designer adopt Generative AI to benefit their learning and get more efficient at their work?
 
 Product Designer plays an important role in making a user fall in love with a product that they use. A designer’s day-to-day work involves applying their specialised knowledge and skills in user experience design to create products and services that meet the needs of users. They  spend their time researching, designing, prototyping, and testing products to ensure that they are user-friendly, accessible, and effective. 
@@ -36,3 +41,11 @@ Values and Personality Traits:
 As a knowledge worker, Sarah's success in her role depends on her ability to continually learn, stay up-to-date with the latest trends and best practices in UX design, and improve her efficiency. This is where AI can play a valuable role, by providing tools and techniques that can help her work more efficiently, solve problems more effectively, and create better products for users. 
 
 In this [Design Playbook series](https://www.promptx.ai/design/design-playbook-ai-powered-experience-design/), we will explore the power of Generative AI to fuel the product innovation and Design Thinking process to help designers get more efficient in crafting delightful experiences for their users.
+
+---
+
+![Paras Aggarwal](../assets/images/Paras-Aggarwal-Avatar-sm.png)
+
+[**Paras Aggarwal](https://www.linkedin.com/in/parasaggarwalux/)** is an experienced design leader, disruptive innovation strategist, speaker, and a mentor with over 20 years of hands-on experience in solving business and customer problems through user-led, data-informed Design Thinking approach. He is been exploring the possibilities with Generative AI and defining Design Playbooks to build product experiences.
+
+---

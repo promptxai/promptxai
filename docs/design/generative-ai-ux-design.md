@@ -1,8 +1,8 @@
 # Intersection of Generative AI and Product Design
 
 <aside>
-<img src="../assets/images/Paras-Aggarwal-Avatar-sm.png" alt="Paras Aggarwal" width="40px" /> March, 24 2023
-[Paras Aggarwal](https://www.linkedin.com/in/parasaggarwalux/)
+<img src="/assets/images/Paras-Aggarwal-Avatar-sm.png" alt="Paras Aggarwal" width="40px" /> March, 24 2023
+<a href="https://www.linkedin.com/in/parasaggarwalux/">Paras Aggarwal</a>
 </aside>
 
 Question: How might we help Product Designer adopt Generative AI to benefit their learning and get more efficient at their work?
@@ -46,6 +46,4 @@ In this [Design Playbook series](https://www.promptx.ai/design/design-playbook-a
 
 ![Paras Aggarwal](../assets/images/Paras-Aggarwal-Avatar-sm.png)
 
-[**Paras Aggarwal](https://www.linkedin.com/in/parasaggarwalux/)** is an experienced design leader, disruptive innovation strategist, speaker, and a mentor with over 20 years of hands-on experience in solving business and customer problems through user-led, data-informed Design Thinking approach. He is been exploring the possibilities with Generative AI and defining Design Playbooks to build product experiences.
-
----
+**[Paras Aggarwal](https://www.linkedin.com/in/parasaggarwalux/)** is an experienced design leader, disruptive innovation strategist, speaker, and a mentor with over 20 years of hands-on experience in solving business and customer problems through user-led, data-informed Design Thinking approach. He is been exploring the possibilities with Generative AI and defining Design Playbooks to build product experiences.

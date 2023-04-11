@@ -80,7 +80,6 @@ markdown_extensions:
       permalink: true
   - pymdownx.highlight:
       anchor_linenums: false
-  - pymdownx.inlinehilite
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
